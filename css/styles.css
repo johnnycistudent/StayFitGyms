@@ -219,7 +219,7 @@ h2 {
   
 .end-img {
     /* set the background image */
-    background-image: url("/images/End-Banner.jpg");
+    background-image: url("../images/End-Banner.jpg");
     margin-top: 100px;
 }
   
