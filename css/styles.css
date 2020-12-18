@@ -191,7 +191,6 @@ body{
 .end-img {
     /* set the height */
     height: 500px;
-  
     /* Scale and center the image */
     background-position: center;
     background-size: cover;
@@ -221,6 +220,7 @@ h2 {
     /* set the background image */
     background-image: url("../images/End-Banner.jpg");
     margin-top: 100px;
+    width: 100%;
 }
   
 .img-fluid {
