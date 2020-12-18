@@ -169,22 +169,22 @@ body{
 /* Hero Images */
 #facilitiesImage{
     /* set the background image on the Facilities Page */
-    background-image: url("/images/facilities-cover.jpg");
+    background-image: url("../images/facilities-cover.jpg");
 }
 
 #classesImage{
     /* set the background image on Classes page */
-    background-image: url("/images/Cover-Photo.jpg");
+    background-image: url("../images/Cover-Photo.jpg");
 }
 
 #timetableImage{
     /* set the background image on Timetable page */
-    background-image: url("/images/timetable.jpg");/*open the image from the css on timetable.html page*/
+    background-image: url("../images/timetable.jpg");/*open the image from the css on timetable.html page*/
 }
 
 #contactImage{
     /* set the background image on Contact page */
-    background-image: url("/images/contact.jpg");/*open the image from the css on contactus.html page*/
+    background-image: url("../images/contact.jpg");/*open the image from the css on contactus.html page*/
 }
 
 .bg-img,
