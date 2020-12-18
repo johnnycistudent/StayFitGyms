@@ -1,0 +1,339 @@
+/* General rules */
+
+body{
+    background-color:#fff;
+}
+
+.btn{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
+    0 3px 1px -2px rgba(0, 0, 0, .2),
+    0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: white;
+    transition:800ms ease;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+/* Brand and Logo stylings */
+
+.navbar-brand{
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+}
+
+.brand-text{
+    display: block;
+    text-align: center;
+}
+
+.brand-text-top{
+    font-size: 1.5em;
+}
+
+.logo{
+    color:#000;
+    background-color: #fff;
+    border-radius: 50%;
+    border-color: black;
+    border: 2px solid #000;
+    padding: 4px;
+}
+
+/* Navbar changes color when scrolled */
+.navbar.scrolled {
+    background-color: #000;
+    transition: background-color 300ms linear;
+    color: #fff;
+}
+
+.navbar.scrolled .nav-link, 
+.navbar.scrolled .burger{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar.scrolled .nav-link:hover{
+    color: #fff;
+}
+
+.navbar.scrolled .navbar-brand,
+.navbar.scrolled .navbar-nav .active>.nav-link{
+    color:#fff;
+} 
+
+/* Main Content Section */
+
+.main-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heading{
+    color: #fff;
+    font-size: 3.5em;
+}
+
+/* Footer Section */
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    text-align: center;
+}
+
+/* Social Media Links stylings */
+
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.social {
+    color: #fff;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+/* Social Media icons colours on hover */
+
+#social-fb:hover {
+    color: #3B5998;
+}
+
+#social-tw:hover {
+    color: #4099FF;
+}
+
+#social-gp:hover {
+    color: #d34836;
+}
+
+#social-in:hover {
+    color: #cd486b;
+}
+
+#social-linkedin:hover {
+    color: #0072b1;
+}
+
+#social-yt:hover {
+    color: #ff0000;
+}
+
+/* Index Page*/
+
+/* Carousel Section */
+
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+.carousel-heading{
+    color:#fff;
+    font-weight: 900;
+}
+
+.carousel-subheading{
+    color:#fff;
+}
+
+.index-button-right{
+    float: right;
+}
+
+/* Hero Images */
+#facilitiesImage{
+    /* set the background image on the Facilities Page */
+    background-image: url("/images/facilities-cover.jpg");
+}
+
+#classesImage{
+    /* set the background image on Classes page */
+    background-image: url("/images/Cover-Photo.jpg");
+}
+
+#timetableImage{
+    /* set the background image on Timetable page */
+    background-image: url("/images/timetable.jpg");/*open the image from the css on timetable.html page*/
+}
+
+#contactImage{
+    /* set the background image on Contact page */
+    background-image: url("/images/contact.jpg");/*open the image from the css on contactus.html page*/
+}
+
+.bg-img,
+.end-img {
+    /* set the height */
+    height: 500px;
+  
+    /* Scale and center the image */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Facilities Page */
+/* the modal image popup style  */
+#img-popup {
+    border: 0.6em solid white;
+    border-radius: 0.8em;
+}
+  
+.facilities-video {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+  
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}  
+
+/* Classes Page */
+  
+.end-img {
+    /* set the background image */
+    background-image: url("/images/End-Banner.jpg");
+    margin-top: 100px;
+}
+  
+.img-fluid {
+    transform: rotateZ(-2deg);
+    border: 0.5em solid #fff;
+    margin-top: 15px;
+    border-radius: 0.25em;
+    box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    cursor: pointer;
+}
+  
+.fade-in {
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
+  
+.fade-in.appear {
+    opacity: 1;
+}
+  
+.classes-row {
+    margin-top: 40px;
+}
+  
+.my-join h1 {
+    color: #fff;
+}
+  
+.my-join {
+    text-align: center;
+    color: #fff;
+}
+  
+h2 {
+    margin-bottom: 20px;
+}
+  
+#classes-heading {
+    margin-top: 40px;
+}
+
+
+/* Contact Page */
+
+/* Design the submit button (SEND) */
+#submit{
+    float: right;
+    margin-right: 5px;
+    float:right; /*add the position of the button*/
+}
+
+/* Design the reset button */
+#reset{
+    float:right; /*add the position of the button*/
+}
+
+/* Design the Timetable text on the header */
+.timetable{
+    color: #000; /*add the color of the font*/
+    text-align: center; /*add the position of the text*/
+    font-size:20px; /*add the size of the font*/
+}
+
+/* Design the Contact text on the header */
+.contact{
+    text-align: left; /*add the position of the text*/
+}
+
+.timetableTable{
+/* text-align: right; */
+    word-break:break-all;
+}
+
+td{
+    word-break:break-all;
+}
+
+/* MEDIA QUERIES */
+
+/* arrange the pictures in the correct order when viewing on small viewport sizes  */
+@media screen and (max-width: 764px) {
+    .classes-row {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+  
+    .classes-row {
+      flex-direction: column;
+    }
+    .first {
+      order: 2;
+    }
+    .second {
+      order: 1;
+    }
+}
+
+/* makes the Timetable font smaller when viewing on smaller screens */
+
+@media (max-width: 480px) {
+
+    .table,
+    .table th {
+        font-size: 10px!important;
+        padding: 0.5rem;
+    }
+}
+
+
+
+
+
+
