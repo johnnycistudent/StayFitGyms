@@ -10,6 +10,12 @@ body{
     0 1px 5px 0 rgba(0, 0, 0, .12);
 }
 
+.brand{
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 /* Navbar */
 
 .navbar{
